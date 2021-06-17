@@ -1,14 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="amazon logo icon" href="./assest/amazon_logo.ico" />
-    <title>Amazon.com spend less. smile more. </title>
-</head>
-<body>
-    <h1>JS Amazon Clone</h1>
-    <p>this is the brand new ecommerce website.</p>
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <title>Amazon.com spend less. smile more.</title>
+  </head>
+  <body>
+    <div class="grid_container">
+      <header class="fixed-header">
+        <div class="brand-logo">
+          <a href="/">amazon</a>
+        </div>
+        <div>
+          <a href="/signin">signIn</a>
+          <a href="/cart">Cart</a>
+        </div>
+      </header>
+      <main>
+        <ul class="products">
+          <li>
+            <div class="product">
+              <a href="/product/1">
+                <img
+                  src="./assest/products/product-1.jpg"
+                  alt="product 1"
+                  srcset=""
+                />
+              </a>
+              <div class="product-name">
+                <a href="/product/1"> Slim Fit Women Trousers </a>
+              </div>
+              <div class="product-brand">US POLO ORIGINAL</div>
+              <div class="product-price">&#8377;3000</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <a href="/product/2">
+                <img
+                  src="./assest/products/product-2.jpg"
+                  alt="product 2"
+                  srcset=""
+                />
+              </a>
+              <div class="product-name">
+                <a href="/product/2"> Slim Fit men Light Brown Trousers </a>
+              </div>
+              <div class="product-brand">LiveStyle</div>
+              <div class="product-price">&#8377;3500</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <a href="/product/3">
+                <img
+                  src="./assest/products/product-3.jpg"
+                  alt="product 3"
+                  srcset=""
+                />
+              </a>
+              <div class="product-name">
+                <a href="/product/3"> Slim Fit Women Pick Trousers </a>
+              </div>
+              <div class="product-brand">Killer</div>
+              <div class="product-price">&#8377;5000</div>
+            </div>
+          </li>
+        </ul>
+      </main>
+      <footer>
+        <a href="/footer_cou">Conditions of Use</a>&nbsp&nbsp<a
+          href="/footer_pn"
+          >Privacy Notice</a
+        >&nbsp&nbsp <a href="/footer_iba">Interest-Based Ads</a>&nbsp&nbsp ©
+        1996-2021, Amazon.com, Inc. or its affiliates
+      </footer>
+    </div>
+  </body>
 </html>
