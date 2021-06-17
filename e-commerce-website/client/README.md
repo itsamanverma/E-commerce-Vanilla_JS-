@@ -9,3 +9,8 @@
         6. install live-server dependency using `npm install live-server`
         7. add start script inside package.json "`start`:`live-server src --verbose`"
         8. run `npm start` commond to check setup
+
+##  .Design Website
+        1. create style file
+        2. create div.grid-container
+        3. craete header, main and footer
